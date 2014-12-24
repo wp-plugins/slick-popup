@@ -8,7 +8,8 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A CF7 compatible pop-up form which is slick, beautiful and responsive to different screen-sizes. 
+A CF7 compatible pop-up form which is slick, beautiful and responsive to different screen-sizes. Gives you a pop-up form that aids your visitors
+to contact you easily.
 
 == Description ==
 
@@ -36,13 +37,9 @@ If you would prefer to do things manually then follow these instructions:
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= I have a doubt, what should I do? =
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+F.A.Q section will be completed soon. Till then you can use the plugin's support forum or mail me at: ak.singla@hotmail.com
 
 == Screenshots ==
 
@@ -50,48 +47,10 @@ Answer to foo bar dilemma.
 
 == Changelog ==
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+= 0.1 =
+* First Uploaded to WordPress
 
 == Upgrade Notice ==
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+= 0.1 =
+* First Uploaded to WordPress
