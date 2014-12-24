@@ -8,12 +8,12 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A CF7 compatible pop-up form which is slick, beautiful and responsive to different screen-sizes. Gives you a pop-up form that aids your visitors
-to contact you easily.
+A CF7 compatible pop-up form which is slick, beautiful and responsive to different screen-sizes.
 
 == Description ==
 
-A Contact Form7 compatible pop-up form. The pop-up is responsive to different screen-sizes. 
+A Contact Form7 compatible pop-up form. The pop-up is responsive to different screen-sizes. Gives you a pop-up form that aids your visitors
+to contact you easily.
 
 *   Responsive and browser compatible
 *   Choose color scheme as per your theme
