@@ -13,7 +13,7 @@ A CF7 compatible pop-up form which is slick, beautiful and responsive to differe
 == Description ==
 
 A Contact Form7 compatible pop-up form. The pop-up is responsive to different screen-sizes. Gives you a pop-up form that aids your visitors
-to contact you easily.
+to contact you easily. Enjoy with the plugin. 
 
 *   Responsive and browser compatible
 *   Choose color scheme as per your theme
