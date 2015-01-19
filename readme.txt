@@ -4,7 +4,7 @@ Donate link: http://www.omaksolutions.com/donate
 Tags: popup, cf7 compatible
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 0.1
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 1. Screenshots will be available soon. 
 
 == Changelog ==
+
+= 1.0 =
+* Improved Options Page
+* Few Others Tests and Improvisations
 
 = 0.1 =
 * First Uploaded to WordPress
