@@ -64,11 +64,13 @@
 					<td>Default: #276AB2</td>
 				</tr>
 				
-				<tr valign="top">
+				<!--
+				<tr valign="top" >
 					<th scope="row">Contact Form 7 Shortcode</th>
 					<td><input type="text" name="cf7_shortcode" value="<?php echo get_option('cf7_shortcode'); ?>" /></td>
 					<td>Default: [contact-form-7 id="142" title="Contact Page Form"]</td>
 				</tr>
+				-->
 				
 				<tr valign="top">
 					<th scope="row">Contact Form 7 ID</th>
@@ -79,7 +81,7 @@
 				<tr valign="top">
 					<th scope="row">Contact Form 7 Title</th>
 					<td><input type="text" name="cf7_title" value="<?php echo get_option('cf7_title'); ?>" /></td>
-					<td>Form title as in CF7 backend, default: Submit Paper Form</td>
+					<td>Optional. Form title as in CF7 backend, default: Submit Paper Form</td>
 				</tr>
 
 				<tr valign="top">
