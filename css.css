@@ -165,11 +165,12 @@ div#curtain {
   width: 30px;
   border-radius: 15px 0 0 15px;
   padding: 3px;
-  float: right;
   padding: 0 3px 5px;
   border-radius: 10px 0 0 10px;
   margin-top: 5px;
+  z-index: 999; 
 }
+
 .side-enquiry-holder.holder-get-a-quote {
 	height: 154px; 
 }
@@ -236,21 +237,23 @@ ul.omaksociallinks {
 
 @media (max-width: 767px) {
 	.side-enquiry-holder {
-		border-radius: 10px 0 0;
+		border-radius: 10px 10px 0 0;
 		bottom: 0;
 		height: 20px;
+		text-align: center;
 		width: 125px;
 	}
 	.side-enquiry {
-		background: none;
-		color: #efefef;
-		margin: 0;
-		padding: 3px;
-		right: 5px;
-		text-indent: 0;
-		 width: 112px;
-	}
-	
+	  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  color: #efefef;
+	  margin: 0;
+	  padding: 3px;
+	  text-indent: 0;
+	  width: 112px;
+	  position: relative;
+	  top: 4px;
+	  left: 4px;
+	}	
 	.side-enquiry.have-a-query, .side-enquiry.get-a-quote {
 		background: none; 
 	}
