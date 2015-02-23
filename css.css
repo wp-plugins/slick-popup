@@ -275,7 +275,7 @@ ul.omaksociallinks {
 	}	
 	*/
 	.side-enquiry {
-		left: 45%;
+		left: 0;
 		position: fixed;
 		right: auto;
 		transform: rotate(0deg);
