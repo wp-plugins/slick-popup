@@ -51,6 +51,9 @@
 	}
 </style>
 
+<?php 
+	$default_description = 'Description of the form<br/>Default: Please fill our short form and one of our friendly team members will call you back.</u>';	
+?>
 
 <div class="wrap">
 	<h2 class="page-header">
@@ -93,13 +96,13 @@
 				<tr valign="top">
 					<th scope="row">Theme Color</th>
 					<td><input type="color" name="primary_color" value="<?php echo get_option('primary_color'); ?>" /></td>
-					<td class="help-box">Default: #074C97<br/>Button and form's header background color</td>
+					<td class="help-box">Button and Form Header background color<br/><u>Default: #074C97</u></td>
 				</tr>
 				
 				<tr valign="top">
 					<th scope="row">Border Color</th>
 					<td><input type="color" name="border_color" value="<?php echo get_option('border_color'); ?>" /></td>
-					<td class="help-box">Default: #276AB2<br/>Form's Border Color</td>
+					<td class="help-box">Form Border Color<br/><u>Default: #276AB2</u></td>
 				</tr>
 				
 				<!--
@@ -113,41 +116,49 @@
 				<tr valign="top">
 					<th scope="row">Contact Form 7 ID</th>
 					<td><input type="text" name="cf7_id" value="<?php echo get_option('cf7_id'); ?>" /></td>
-					<td class="help-box">Fill in numeric id of the form, default: 1<br/>Id of the "Contact Form 7" form.</td>
+					<td class="help-box">Id of the "Contact Form 7" form.</br><u>Important</u></td>
 				</tr>
 				
+				<!--
 				<tr valign="top">
 					<th scope="row">Contact Form 7 Title</th>
 					<td><input type="text" name="cf7_title" value="<?php echo get_option('cf7_title'); ?>" /></td>
-					<td class="help-box"><span style="font-weight:bold;">Optional.</strgon> Form title as in CF7 backend, default: Submit Paper Form</td>
+					<td class="help-box"><span style="font-weight:bold;"><u>Optional.</u></strgon> Form title as in CF7 backend, default: Submit Paper Form</td>
 				</tr>
+				-->
 
 				<tr valign="top">
 					<th scope="row">Form Title</th>
 					<td><input type="text" name="form_title" value="<?php echo get_option('form_title'); ?>" /></td>
-					<td class="help-box">Default: Contact Us - We care to help!<br/>Header text of the form</td>
+					<td class="help-box">Header text of the form<br/>Default: Contact Us - We care to help!</td>
 				</tr>
 				
 				<tr valign="top">
 					<th scope="row">Form Description</th>
-					<td><input type="textarea" name="form_description" value="<?php echo get_option('form_description'); ?>" /></td>
-					<td class="help-box">Default: Please fill our short form and one of our friendly team members will call you back.<br/>Change as you need</td>
+					<td>
+						<textarea placeholder="A couple lines before the form" name="form_description" style="width:100%;"><?php echo get_option('form_description'); ?></textarea>
+					</td>
+					<td class="help-box"><?php echo $default_description; ?></td>
 				</tr>
 				
 				<tr valign="top">
-					<th scope="row">Image <?php echo get_option('side_image'); ?></th>
-					<td>
+					<th scope="row">Side Button Text</th>
+					<td>						
 						<?php 							
 							if( get_option('side_image') == 'have-a-query' )
 								$choice = 1; 
-							else $choice = 2; 
+							elseif( get_option('side_image') == 'get-a-quote' )
+								$choice = 2; 
+							else
+								$choice = 3; 
 						?>
 						<select name="side_image">
 							<option value="have-a-query" <?php if($choice==1) echo 'selected'; ?> >Have a Query?</option>
 							<option value="get-a-quote" <?php if($choice==2) echo 'selected'; ?>>Get a Quote</option>
+							<option value="contact-us" <?php if($choice==3) echo 'selected'; ?>>Contact Us</option>
 						</select>
 					</td>
-					<td class="help-box">Default: Have a query Image.</td>
+					<td class="help-box">Default Text: Have a query?</td>
 				</tr>
 
 			</table>

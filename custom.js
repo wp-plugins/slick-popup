@@ -62,4 +62,14 @@ function set_popup() {
 		
 		popup.css( 'left', popLeft+'px' );
 	}
+	set_right_button();
+}
+
+function set_right_button() {
+	side_button = jQuery('.side-enquiry');
+	curtain = jQuery('#curtain');
+	
+	button_width = side_button.width(); 
+	
+	side_button.css( 'right', '-'+button_width/2+'px' );
 }

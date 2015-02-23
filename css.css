@@ -154,7 +154,7 @@ div#curtain {
 }
 
 /* Side Image Button Handle Styles
-***************************************/
+***************************************
 .side-enquiry-holder {
 	background: url("images/black-texture.png") repeat scroll 0 0 #333; 
   background: #074C97;
@@ -194,8 +194,24 @@ div#curtain {
 .side-enquiry.have-a-query {
 	background: url('images/have-a-query.png') no-repeat transparent;
 }
+*/
 
-
+.side-enquiry {
+  background: none repeat scroll 0 0 #000;
+  color: #efefef;
+  font-size: 17px;
+  padding: 0px 10px 7px;
+  z-index: 999;
+  position: fixed;
+  right: -52px;
+  top: 45%;
+  transform: rotate(-90deg);
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+a.side-enquiry:hover {
+	color: #efefef; 
+}
 
 /* Omak Social Links Styles
 ***************************************/
@@ -242,7 +258,10 @@ ul.omaksociallinks {
 		height: 20px;
 		text-align: center;
 		width: 125px;
+		right: auto; 
+		left: 0; 
 	}
+	/*
 	.side-enquiry {
 	  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 	  color: #efefef;
@@ -254,6 +273,19 @@ ul.omaksociallinks {
 	  top: 4px;
 	  left: 4px;
 	}	
+	*/
+	.side-enquiry {
+		left: 45%;
+		position: fixed;
+		right: auto;
+		transform: rotate(0deg);
+		z-index: 999;
+		top: auto;
+		bottom: 0;
+		font-size: 13px;
+		right: auto !important; 
+		padding: 3px 10px; 
+	}
 	.side-enquiry.have-a-query, .side-enquiry.get-a-quote {
 		background: none; 
 	}

@@ -114,7 +114,12 @@ function add_my_popup() {
 		
 		$form_title = get_option('form_title')?get_option('form_title'):'Contact Us - We care to help!';
 		$form_description = get_option('form_title')?get_option('form_description'):'Please fill our short form and one of our friendly team members will call you back.';
-		$side_image = get_option('side_image')?get_option('side_image'):'have-a-query';		
+		$side_image = get_option('side_image')?get_option('side_image'):'have-a-query';	
+		switch( $side_image ) {
+			case 'have-a-query': $side_text = 'Have a Query?'; break;			
+			case 'get-a-quote': $side_text = 'Get a Quote'; break;	
+			default: $side_text = 'Contact Us'; 
+		}
 		?>
 		<!-- Pop Up Box and Curtain Arrangement -->
 			<div id="curtain" onClick="unloadPopupBox();" style=""></div>
@@ -135,9 +140,10 @@ function add_my_popup() {
 				<!--<div class="success" style="display: none;">Successfully Submitted ...</div>-->
 			   <a id="popupBoxClose" onClick="unloadPopupBox();">X</a>  
 			</div>
-			<div  class="side-enquiry-holder holder-<?php echo $side_image; ?>" >
+			<!--<div  class="side-enquiry-holder holder-<?php echo $side_image; ?>" >
 				<a onClick="loadPopupBox();" class="side-enquiry <?php echo $side_image; ?>">Have a query?</a>
-			</div>
+			</div>-->
+			<a onClick="loadPopupBox();" class="side-enquiry"><?php echo $side_text ?></a>
 			<!-- Pop Up Box and Curtain Arrangement -->
 <?php
 	}
@@ -153,7 +159,7 @@ function option_css() {
 	<?php if( !is_admin() ) { ?>
 		<style>
 			#popup_box .wpcf7-form-control.wpcf7-submit,
-			.side-enquiry-holder, #popup_title {
+			.side-enquiry-holder, #popup_title, .side-enquiry {
 				background: <?php echo $primary_color; ?>;
 			}
 			#popup_box {
