@@ -47,6 +47,10 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 
 == Changelog ==
 
+= 1.2.0 =
+* Side Button Improved for using Text and not images
+* Side Button position made to left on smaller screens
+
 = 1.0 =
 * Improved Options Page
 * Few Others Tests and Improvisations
