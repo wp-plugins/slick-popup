@@ -15,6 +15,8 @@ A CF7 compatible pop-up form which is slick, beautiful and responsive to differe
 A Contact Form7 compatible pop-up form. The pop-up is responsive to different screen-sizes. Gives you a pop-up form that aids your visitors
 to contact you easily. Enjoy with the plugin. 
 
+The plugin converts a Contact Form 7 form in to a beautiful popup. So, Contact Form 7 plugin must be installed and setup to use Slick Popup. 
+
 *   Responsive and browser compatible
 *   Choose color scheme as per your theme
 *   "Get a quote" or "Have a query" buttons
