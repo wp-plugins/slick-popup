@@ -53,11 +53,12 @@
 
 <?php 
 	$default_description = 'Description of the form<br/>Default: Please fill our short form and one of our friendly team members will call you back.</u>';	
+	$plugin_version = '1.2.2';
 ?>
 
 <div class="wrap">
 	<h2 class="page-header">
-		Slick Popup Options 
+		Slick Popup Options - <?php echo $plugin_version; ?>
 		<!--<span class="branding-link"><a href="http://www.omaksolutions.com" title="Om Ak Solutions">Om Ak Solutions</a></span>-->
 		<span class="branding-link">Need Help? Skype Me: ak.singla47</span>
 	</h2>
@@ -95,13 +96,13 @@
 
 				<tr valign="top">
 					<th scope="row">Theme Color</th>
-					<td><input type="color" name="primary_color" value="<?php echo get_option('primary_color'); ?>" /></td>
+					<td><input type="text" class="colorpicker-field" name="primary_color" data-default-color="#074C97" value="<?php echo get_option('primary_color'); ?>" /></td>
 					<td class="help-box">Button and Form Header background color<br/><u>Default: #074C97</u></td>
 				</tr>
 				
 				<tr valign="top">
 					<th scope="row">Border Color</th>
-					<td><input type="color" name="border_color" value="<?php echo get_option('border_color'); ?>" /></td>
+					<td><input type="text" class="colorpicker-field" name="border_color" data-default-color="#276AB2" value="<?php echo get_option('border_color'); ?>" /></td>
 					<td class="help-box">Form Border Color<br/><u>Default: #276AB2</u></td>
 				</tr>
 				

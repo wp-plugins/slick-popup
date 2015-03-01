@@ -275,4 +275,20 @@ function create_share_button() {
 }
 add_shortcode( 'OmakSocialLinks', 'create_share_button' ); 
 
+
+
+////////////////////////////////////
+// Admin-Script.JS added
+// With dependency on wp-color-picker.com
+// Help: https://make.wordpress.org/core/2012/11/30/new-color-picker-in-wp-3-5/
+////////////////////////////////////
+add_action( 'admin_enqueue_scripts', 'mw_enqueue_color_picker' );
+function mw_enqueue_color_picker( $hook_suffix ) {
+    // first check that $hook_suffix is appropriate for your admin page
+	if( $hook_suffix != 'toplevel_page_slick-options' )
+		return;
+    wp_enqueue_style( 'wp-color-picker' );
+    wp_enqueue_script( 'my-script-handle', plugins_url('admin-script.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
+}
+
 ?>
