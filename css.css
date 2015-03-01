@@ -153,6 +153,12 @@ div#curtain {
   color: #A31B1F;
 }
 
+#popup_box .wpcf7-form > p {
+  font-size: 0.8em;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
 /* Side Image Button Handle Styles
 ***************************************
 .side-enquiry-holder {
