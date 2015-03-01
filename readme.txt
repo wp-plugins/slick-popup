@@ -50,6 +50,15 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 == Changelog ==
 
 = 1.2.0 =
+* Better Color picker in plugin options. 
+* Version number in plugin head on options page.
+
+= 1.2.1 =
+* Side button option: "Contact Us" text added
+
+= 1.2.0 =
+
+= 1.2.0 =
 * Side Button Improved for using Text and not images
 * Side Button position made to left on smaller screens
 
