@@ -21,7 +21,7 @@ The plugin converts a Contact Form 7 form in to a beautiful popup. So, Contact F
 *   Choose color scheme as per your theme
 *   "Get a quote" or "Have a query" buttons
 
-[Plugin Demo] (http://www.slick-popup.omaksolutions.com/)
+[Plugin Demo](http://www.slick-popup.omaksolutions.com/)
 
 After the new color picker in the plugin options, choosing your color scheme is easier. You will enjoy using it. 
 
@@ -40,6 +40,12 @@ If you would prefer to do things manually then follow these instructions:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Edit settings from the Dashboard Options page "Slick Popup"
 
+== Screenshots == 
+
+1. Plugin Options in the WP backend. 
+2. Enquiry form pops up on clicking the button on the right. 
+3. Popup form layout available on all pages. 
+4. Side button position on smaller screens. 
 
 == Frequently Asked Questions ==
 
