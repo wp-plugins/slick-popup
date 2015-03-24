@@ -4,7 +4,7 @@ Donate link: http://www.omaksolutions.com/donate
 Tags: popup, cf7 compatible
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,7 +59,10 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 
 == Changelog ==
 
-= 1.2.0 =
+= 1.2.3 =
+* Fixed side button z-index placing
+
+= 1.2.2 =
 * Better Color picker in plugin options. 
 * Version number in plugin head on options page.
 

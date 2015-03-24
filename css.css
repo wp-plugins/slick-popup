@@ -207,7 +207,7 @@ div#curtain {
   color: #efefef;
   font-size: 17px;
   padding: 0px 10px 7px;
-  z-index: 999;
+  z-index: 1001;
   position: fixed;
   right: -52px;
   top: 45%;
