@@ -1,6 +1,6 @@
 === Slick Popup ===
 Contributors: ak.singla
-Donate link: http://www.omaksolutions.com/donate
+Donate link: http://www.slick-popup.omaksolutions.com/donate
 Tags: popup, cf7 compatible
 Requires at least: 3.0.1
 Tested up to: 4.1
