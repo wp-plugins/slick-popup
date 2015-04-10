@@ -40,13 +40,6 @@ If you would prefer to do things manually then follow these instructions:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Edit settings from the Dashboard Options page "Slick Popup"
 
-== Screenshots == 
-
-1. Plugin Options in the WP backend. 
-2. Enquiry form pops up on clicking the button on the right. 
-3. Popup form layout available on all pages. 
-4. Side button position on smaller screens. 
-
 == Frequently Asked Questions ==
 
 = I have a doubt, what should I do? =
@@ -55,7 +48,10 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 
 == Screenshots ==
 
-1. Screenshots will be available soon. 
+1. Plugin Options in the WP backend. 
+2. Enquiry form pops up on clicking the button on the right. 
+3. Popup form layout available on all pages. 
+4. Side button position on smaller screens. 
 
 == Changelog ==
 
