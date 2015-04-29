@@ -205,6 +205,13 @@
 				We are continuously trying to enhance our plugin with new features. If you need a feature, modfication or if you found a bug, 
 				just shoot a message at my <strong>Skype: ak.singla47</strong>
 			</div>
+			
+			<br/><br/>
+			<div class="update">
+				<h2>Are you using Contact Form 7 plugin?</h2>
+				<p>Would you like to convert one of your CF7 form in to a responsive popup form?</p>
+				<p>Try our <a href="http://www.wordpress.org/plugins/slick-popup" title="Slick Popup WordPress Plugin">Slick Popup</a> plugin.
+			</div>
 
 		</form>
 
