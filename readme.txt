@@ -3,7 +3,7 @@ Contributors: ak.singla
 Donate link: http://www.slick-popup.omaksolutions.com/donate
 Tags: popup, cf7 compatible
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 4.2.1
 Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
