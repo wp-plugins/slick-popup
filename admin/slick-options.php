@@ -208,9 +208,8 @@
 			
 			<br/><br/>
 			<div class="update">
-				<h2>Are you using Contact Form 7 plugin?</h2>
-				<p>Would you like to convert one of your CF7 form in to a responsive popup form?</p>
-				<p>Try our <a href="http://www.wordpress.org/plugins/slick-popup" title="Slick Popup WordPress Plugin">Slick Popup</a> plugin.
+				<h2>Are you tired of updating your plugins and themes, or core updates? </h2>
+				<p>Try our <a href="http://www.wordpress.org/plugins/wp-automatic-updates" title="WP Automatic Updates WordPress Plugin">WP Automatic Updates</a> plugin.
 			</div>
 
 		</form>
