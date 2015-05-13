@@ -33,6 +33,12 @@ jQuery( window ).resize(function() {
 
 
 jQuery(document).ready(function($) {
+	
+	var external_selector = jQuery( '.popup-activator' ); 
+	external_selector.click( function() {
+		loadPopupBox();
+	}
+	
 	set_popup();
 });
 
