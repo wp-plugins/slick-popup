@@ -53,7 +53,7 @@
 
 <?php 
 	$default_description = 'Description of the form<br/>Default: Please fill our short form and one of our friendly team members will call you back.</u>';	
-	$plugin_version = '1.2.5';
+	$plugin_version = '1.2.6';
 ?>
 
 <div class="wrap">

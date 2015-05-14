@@ -7,7 +7,7 @@ Plugin URI:   http://www.omaksolutions.com
 Description:  Beautiful, Slick and customizable pop-up compatible with Contact Form 7.
 Author URI:   http://www.omaksolutions.com 
 Author:       Om Ak Solutions 
-Version:      1.2.5
+Version:      1.2.6
 */
 
 //include 'other-options.php';
