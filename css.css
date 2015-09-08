@@ -211,6 +211,9 @@ div#curtain {
   right: -52px;
   top: 45%;
   transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   border-radius: 5px 5px 0 0;
   cursor: pointer;
 }
