@@ -112,6 +112,7 @@ div#curtain {
   padding: 10px 0;
   text-transform: uppercase;
   width: 50%;
+  text-align: center;
 }
 #popup_box .widget_widget_text {
     display: none;

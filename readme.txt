@@ -4,7 +4,7 @@ Donate link: http://www.slick-popup.omaksolutions.com/donate
 Tags: popup, cf7 compatible
 Requires at least: 3.0.1
 Tested up to: 4.2.1
-Stable tag: 1.2.6
+Stable tag: 1.2.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ F.A.Q section will be completed soon. Till then you can use the plugin's support
 4. Side button position on smaller screens. 
 
 == Changelog ==
+
+= 1.2.6.1 =
+* Fixed: Form Submit Button Text Center
 
 = 1.2.6 =
 * Fixed: External Selector for activating the popup had a type error.
